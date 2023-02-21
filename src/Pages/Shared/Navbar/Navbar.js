@@ -8,7 +8,7 @@ const Navbar = () => {
             <li><Link>Home</Link></li>
    </>
   return (
-    <div className='mb-8'>
+    <div className='mb-'>
       <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
