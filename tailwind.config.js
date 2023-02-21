@@ -3,8 +3,16 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  theme: {
-    extend: {},
+  daisyui: {
+    themes: [
+      {
+        cardoctortheme: {
+          primary: '#FF3811',
+           
+          "base-100": "#FFFFFF",  
+        }
+      }
+    ]
   },
   plugins: [require("daisyui")],
 }
