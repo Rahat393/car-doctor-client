@@ -7,7 +7,7 @@ import {  BsFacebook, BsInstagram, BsLinkedin, BsTwitch, BsTwitter } from 'react
 
 const Team = () => {
   return (
-    <div>
+    <div className='mt-14'>
        <h3 className='text-primary text-xl font-bold text-center'>Team</h3>
        <h2 className='text-3xl font-bold text-center'>Meet Our Team</h2>
        <p className='text-sm text-center mt-3'>the majority have suffered alteration in some form, <br /> by injected humour, or randomised words which don't look even slightly believable. </p>
