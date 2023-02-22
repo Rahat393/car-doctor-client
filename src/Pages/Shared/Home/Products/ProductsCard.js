@@ -7,7 +7,7 @@ const ProductsCard = ({product}) => {
   return (
     <div>
        <div className="card   w-96 h-96 my-10 bg-base-100 shadow-xl border-style">
-    <figure><img className='bg-gray-200 w-full'   src={image} alt=" " /></figure>
+    <figure className='rounded-xl'><img className='bg-gray-200 w-full '   src={image} alt=" " /></figure>
     <div className=" text-center mt-3">
          <div className='flex text-center ml-36'>
          <AiFillStar className='text-[#FF912C]'></AiFillStar>
