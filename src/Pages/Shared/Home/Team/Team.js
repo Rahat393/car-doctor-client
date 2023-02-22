@@ -27,7 +27,7 @@ const Team = () => {
         </div>
         </div>
         <div className="card   w-96 h-96 my-10 bg-base-100 shadow-xl border-style"> 
-        <figure className='rounded-xl'><img className='bg-gray-200 w-full '   src={img1} alt=" " /></figure>
+        <figure className='rounded-xl'><img className='bg-gray-200 w-full '   src={img2} alt=" " /></figure>
         <div className='text-center'>
         <h3 className='text-xl font-bold'>Car Engine Plug</h3>
         <p>Engine Expert</p>
@@ -40,7 +40,7 @@ const Team = () => {
         </div>
         </div>
         <div className="card   w-96 h-96 my-10 bg-base-100 shadow-xl border-style"> 
-        <figure className='rounded-xl'><img className='bg-gray-200 w-full '   src={img1} alt=" " /></figure>
+        <figure className='rounded-xl'><img className='bg-gray-200 w-full '   src={img3} alt=" " /></figure>
         <div className='text-center'>
         <h3 className='text-xl font-bold'>Car Engine Plug</h3>
         <p>Engine Expert</p>

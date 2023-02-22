@@ -5,14 +5,17 @@ import Button from '../../../../Components/Button/Button';
 
 const About = () => {
   return (
-    <div className="hero  ">
+    <div className='mt-11'>
+        <p className="text-xl text-center font-bold text-primary">About Us</p>
+
+        <div className="hero  "> 
     <div className="hero-content flex-col lg:flex-row">
         <div className='relative w-1/2'>
             <img src={person} alt="" className="w-4/5 h-full rounded-lg shadow-2xl" />
             <img src={parts} alt="" className="absolute right-5 top-1/2 w-3/5 border-8 border-white rounded-lg shadow-2xl" />
         </div>
         <div className='w-1/2'>
-            <p className="text-4xl font-bold text-primary">About Us</p>
+            
             <h1 className="my-5 text-5xl font-bold">
                 We are qualified <br />
                 & of experience <br />
@@ -23,6 +26,7 @@ const About = () => {
         </div>
     </div>
 </div>
+    </div>
   );
 };
 
