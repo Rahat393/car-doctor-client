@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from '../../../../assets/images/team/1.jpg'
 import img2 from '../../../../assets/images/team/2.jpg'
 import img3 from '../../../../assets/images/team/3.jpg'
-import {  BsFacebook, BsInstagram, BsLinkedin, BsTwitch, BsTwitter } from 'react-icons/bs';
+import {  BsFacebook, BsInstagram, BsLinkedin,   BsTwitter } from 'react-icons/bs';
 
 
 const Team = () => {
