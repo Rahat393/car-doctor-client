@@ -5,6 +5,7 @@ import LogIn from "../Pages/LogIn";
 import Home from "../Pages/Shared/Home/Home/Home";
 import SignUp from "../Pages/SignUp/SignUp";
 import Orders from "../Pages/Orders/Orders";
+import NotFound from "../Components/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
         path: '/checkout/:id',
         element: <CheckOut></CheckOut>,
         loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+      },
+      {
+        path : '/*',
+        element: <NotFound></NotFound>
       }
     ]
   }

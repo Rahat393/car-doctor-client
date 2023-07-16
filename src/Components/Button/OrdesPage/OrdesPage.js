@@ -15,8 +15,8 @@ console.log(_id);
   return (
     <tr>
             <th>
-                <label>
-                    <button onClick={() => handleDelete(_id)}  className='btn btn-ghost'>X</button>
+            <label>
+                    <button onClick={() => handleDelete(_id)}  className='btn btn-ghost bg-red-400 text-white'>X</button>
                 </label>
             </th>
             <td>
@@ -38,8 +38,12 @@ console.log(_id);
             <th>
                 <button
                     onClick={() => handleStatusUpdate(_id)}
-                    className="btn btn-ghost btn-xs">{status ? status : 'pending'}</button>
+                    className="btn btn-ghost ">{status ? <span className='text-blue-600'>{status}</span> : <span className='text-red-400'>{'pending'}</span>}
+                    </button>
+
+                    
             </th>
+            
         </tr>
   );
 };
